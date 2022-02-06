@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.img-wrapper {
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+}
+
+.img-wrapper > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
